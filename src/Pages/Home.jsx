@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react'
-import GenreList from "../Componenets/GenreList.jsx";
+import GenreList from "../Components/GenreList.jsx";
 import GlobalApi from "../Services/GlobalApi.jsx";
-import Banner from "../Componenets/Banner.jsx";
-import TrendingGames from "../Componenets/TrendingGames.jsx";
-import GamesByGenresId from "../Componenets/GamesByGenresId.jsx";
+import Banner from "../Components/Banner.jsx";
+import TrendingGames from "../Components/TrendingGames.jsx";
+import GamesByGenresId from "../Components/GamesByGenresId.jsx";
 
 export default function Home() {
     const [allGamesList, setAllGamesList] = useState()

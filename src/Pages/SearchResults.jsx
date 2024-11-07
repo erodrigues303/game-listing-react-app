@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import GlobalApi from "../Services/GlobalApi";
-import GamesDisplay from "../Componenets/GamesDisplay";
+import GamesDisplay from "../Components/GamesDisplay";
 
 export default function SearchResults() {
+    const { query } = useParams(); // Get query from the URL
     const [searchResults, setSearchResults] = useState([]);
-    const [error, setError] = useState(null); 
-    const query = new URLSearchParams(location.search).get("q");
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         if (query) {
