@@ -4,7 +4,7 @@ import GlobalApi from "../Services/GlobalApi";
 import GamesDisplay from "../Components/GamesDisplay";
 
 export default function SearchResults() {
-    const { query } = useParams(); // Get query from the URL
+    const { query } = useParams();
     const [searchResults, setSearchResults] = useState([]);
     const [error, setError] = useState(null);
 

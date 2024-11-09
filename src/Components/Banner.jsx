@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
 export default function Banner({ gameBanner }) {
     const navigate = useNavigate();
     useEffect(() => {

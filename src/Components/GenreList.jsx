@@ -31,7 +31,7 @@ export default function GenreList({genreId, seletedGenreName}) {
                     <img
                         src={item.image_background}
                         className='w-[40px] h-[40px] object-cover rounded-lg group-hover:scale-105 transition-all ease-out duration-300'
-                        alt={`${item.name} background`} // Adding alt text for accessibility
+                        alt={`${item.name} background`}
                     />
                     <h3 className='dark:text-white text-[18px] group-hover:font-bold'>{item.name}</h3>
                 </div>
