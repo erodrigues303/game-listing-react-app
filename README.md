@@ -27,15 +27,15 @@ Follow these steps to set up the project locally.
 ### Prerequisites
 
 - Node.js (v14 or later)
-- npm (Node Package Manager) or Yarn
-
+- npm (Node Package Manager)
+  
 ### Installation
 
 1. **Clone the repository**
 
    ```bash
    git clone https://github.com/your-username/game-info-website.git
-   cd game-info-website
+   cd game-listing-app
 
 2. **Install dependencies**
    ```bash
